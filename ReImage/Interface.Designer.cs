@@ -81,7 +81,6 @@
             this.laplassian = new MetroFramework.Controls.MetroLink();
             this.convolution_filters_name = new MetroFramework.Controls.MetroLabel();
             this.other_panel = new MetroFramework.Controls.MetroTabPage();
-            this.hdga = new MetroFramework.Controls.MetroLink();
             this.new_B = new MetroFramework.Controls.MetroTextBox();
             this.new_G = new MetroFramework.Controls.MetroTextBox();
             this.new_R = new MetroFramework.Controls.MetroTextBox();
@@ -956,7 +955,6 @@
             // other_panel
             // 
             this.other_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
-            this.other_panel.Controls.Add(this.hdga);
             this.other_panel.Controls.Add(this.new_B);
             this.other_panel.Controls.Add(this.new_G);
             this.other_panel.Controls.Add(this.new_R);
@@ -990,21 +988,6 @@
             this.other_panel.VerticalScrollbarBarColor = true;
             this.other_panel.VerticalScrollbarHighlightOnWheel = true;
             this.other_panel.VerticalScrollbarSize = 8;
-            // 
-            // hdga
-            // 
-            this.hdga.FontSize = MetroFramework.MetroLinkSize.Tall;
-            this.hdga.Location = new System.Drawing.Point(37, 487);
-            this.hdga.Name = "hdga";
-            this.hdga.Size = new System.Drawing.Size(171, 23);
-            this.hdga.Style = MetroFramework.MetroColorStyle.Silver;
-            this.hdga.TabIndex = 31;
-            this.hdga.Tag = "hvga";
-            this.hdga.Text = "HereWeGoAgain";
-            this.hdga.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.hdga.UseSelectable = true;
-            this.hdga.UseStyleColors = true;
-            this.hdga.Click += new System.EventHandler(this.other_any_btn_Click);
             // 
             // new_B
             // 
@@ -1709,7 +1692,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLink other_replace_color;
         private MetroFramework.Controls.MetroLink other_sobel;
-        private MetroFramework.Controls.MetroLink hdga;
     }
 }
 

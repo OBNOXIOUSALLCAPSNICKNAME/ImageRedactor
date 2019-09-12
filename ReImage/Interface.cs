@@ -341,9 +341,6 @@ namespace ReImage
                 case "trace":
                     SelectedFilter = CannyEdgeDetector.Trace;
                     break;
-                case "hvga":
-                    SelectedFilter = ColorPalette.GetMainColors;
-                    break;
             }
             thread = new Thread(RunFilter);
             thread.Start();

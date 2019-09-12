@@ -73,8 +73,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Image Processing\ColorPalette\Converter.cs" />
-    <Compile Include="Image Processing\ColorPalette\CIELab.cs" />
     <Compile Include="Image Processing\CannyEdgeDetector.cs" />
     <Compile Include="Custom\CustomButton.cs">
       <SubType>UserControl</SubType>
@@ -93,12 +91,10 @@
       <DependentUpon>Interface.cs</DependentUpon>
     </Compile>
     <Compile Include="Image Processing\PixelHandler.cs" />
-    <Compile Include="Image Processing\ColorPalette\K_means.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Custom\SwapEffect.cs" />
     <Compile Include="Image Processing\UnsafeBitmap.cs" />
-    <Compile Include="Image Processing\ColorPalette\ColorPalette.cs" />
     <EmbeddedResource Include="Interface.resx">
       <DependentUpon>Interface.cs</DependentUpon>
     </EmbeddedResource>
